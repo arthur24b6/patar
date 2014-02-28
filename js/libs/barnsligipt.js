@@ -31,6 +31,7 @@ function Barnsligipt () {
 
   /**
    * Calculate the number of pages needed.
+   *
    * @returns {unresolved}
    */
   this.pageCount = function() {
@@ -131,6 +132,7 @@ function Barnsligipt () {
     }
     this.slideIndex = next;
   };
+
 
   /**
    * Get the previous slide.
